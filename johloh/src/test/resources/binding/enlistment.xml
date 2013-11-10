@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <enlistment>
+      <id>460085</id>
+      <project_id>308960</project_id>
+      <repository_id>457112</repository_id>
+      <repository>
+        <id>457112</id>
+        <type>GitRepository</type>
+        <url>git://github.com/blackducksw/ohloh_scm.git</url>
+        <username></username>
+        <password></password>
+        <logged_at>2013-11-05T17:33:50Z</logged_at>
+        <commits>227</commits>
+        <ohloh_job_status>success</ohloh_job_status>
+      </repository>
+    </enlistment>
+  </result>
+</response>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <items_returned>4</items_returned>
+  <items_available>4</items_available>
+  <first_item_position>0</first_item_position>
+  <result>
+    <kudo>
+      <sender_account_id>113920</sender_account_id>
+      <sender_account_name>Megan McIntyre</sender_account_name>
+      <receiver_account_id>113399</receiver_account_id>
+      <receiver_account_name>Abhay Mujumdar</receiver_account_name>
+      <created_at>2011-04-08T17:59:46Z</created_at>
+    </kudo>
+    <kudo>
+      <sender_account_id>58177</sender_account_id>
+      <sender_account_name>Sushil Bajracharya</sender_account_name>
+      <receiver_account_id>113399</receiver_account_id>
+      <receiver_account_name>Abhay Mujumdar</receiver_account_name>
+      <created_at>2011-01-11T22:10:27Z</created_at>
+    </kudo>
+    <kudo>
+      <sender_account_id>117728</sender_account_id>
+      <sender_account_name>Sara Ford</sender_account_name>
+      <receiver_account_id>113399</receiver_account_id>
+      <receiver_account_name>Abhay Mujumdar</receiver_account_name>
+      <created_at>2010-11-22T16:17:32Z</created_at>
+    </kudo>
+    <kudo>
+      <sender_account_id>61669</sender_account_id>
+      <sender_account_name>Asher Baker</sender_account_name>
+      <receiver_account_id>113399</receiver_account_id>
+      <receiver_account_name>Abhay Mujumdar</receiver_account_name>
+      <created_at>2010-11-09T17:38:50Z</created_at>
+    </kudo>
+  </result>
+</response>

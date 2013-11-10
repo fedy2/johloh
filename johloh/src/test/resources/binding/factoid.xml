@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <factoid>
+      <id>63323572</id>
+      <analysis_id>16580559</analysis_id>
+      <type>FactoidActivityDecreasing</type>
+      <description>Decreasing Y-O-Y development activity</description>
+      <severity>-2</severity>
+    </factoid>
+  </result>
+</response>

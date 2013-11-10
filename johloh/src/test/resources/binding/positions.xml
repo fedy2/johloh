@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <items_returned>3</items_returned>
+  <items_available>3</items_available>
+  <first_item_position>0</first_item_position>
+  <result>
+    <position>
+      <title></title>
+      <organization>Black Duck Software, Inc.</organization>
+      <html_url>http://www.ohloh.net/p/bzr-xmloutput/contributors/2027121484610295</html_url>
+      <created_at>2013-05-21T17:55:57Z</created_at>
+      <started_at>2013-05-21T17:55:57Z</started_at>
+      <ended_at>2013-05-21T17:55:57Z</ended_at>
+      <sparkline_url>http://www.ohloh.net/accounts/113399/positions/123707/commits_compound_spark.png</sparkline_url>
+      <commits>1</commits>
+      <project>
+        <id>471976</id>
+        <name>Bazaar xmloutput</name>
+        <url>http://www.ohloh.net/p/bzr-xmloutput.xml</url>
+        <html_url>http://www.ohloh.net/p/bzr-xmloutput</html_url>
+        <created_at>2009-11-04T22:45:33Z</created_at>
+        <updated_at>2013-11-05T14:59:52Z</updated_at>
+        <description>This plugin adds a &quot;--xml&quot; option to log, and provides an &quot;xml version&quot; of the following bazaar commands: log, status, annotate, missing, info, plugins and version, ls</description>
+        <homepage_url>https://launchpad.net/bzr-xmloutput</homepage_url>
+        <download_url>https://launchpad.net/bzr-xmloutput/+download</download_url>
+        <url_name>bzr-xmloutput</url_name>
+        <medium_logo_url>no_logo.png</medium_logo_url>
+        <small_logo_url>no_logo_32.png</small_logo_url>
+        <user_count>0</user_count>
+        <average_rating>5.0</average_rating>
+        <rating_count>1</rating_count>
+        <review_count>0</review_count>
+        <analysis_id>16575265</analysis_id>
+        <licenses>
+          <license>
+            <name>gpl3</name>
+            <nice_name>GNU General Public License v3.0 only</nice_name>
+          </license>
+        </licenses>
+      </project>
+    </position>
+    <position>
+      <title>Developer</title>
+      <organization>Black Duck Software, Inc.</organization>
+      <html_url>http://www.ohloh.net/p/ohloh_scm/contributors/1326973095885559</html_url>
+      <created_at>2013-04-03T18:13:32Z</created_at>
+      <started_at>2013-05-21T17:55:57Z</started_at>
+      <ended_at>2013-05-21T17:55:57Z</ended_at>
+      <sparkline_url>http://www.ohloh.net/accounts/113399/positions/80725/commits_compound_spark.png</sparkline_url>
+      <commits>56</commits>
+      <project>
+        <id>308960</id>
+        <name>Ohloh SCM</name>
+        <url>http://www.ohloh.net/p/ohloh_scm.xml</url>
+        <html_url>http://www.ohloh.net/p/ohloh_scm</html_url>
+        <created_at>2009-01-30T23:38:16Z</created_at>
+        <updated_at>2013-11-05T17:34:04Z</updated_at>
+        <description>The Ohloh Source Control Management library is an abstraction layer for source control management systems, allowing an application to interoperate with various SCMs using a single interface.
+
+It was originally developed at Ohloh, and is used to generate the reports at www.ohloh.net.</description>
+        <homepage_url>http://github.com/blackducksw/ohloh_scm</homepage_url>
+        <download_url></download_url>
+        <url_name>ohloh_scm</url_name>
+        <medium_logo_url>no_logo.png</medium_logo_url>
+        <small_logo_url>no_logo_32.png</small_logo_url>
+        <user_count>6</user_count>
+        <average_rating>3.0</average_rating>
+        <rating_count>1</rating_count>
+        <review_count>0</review_count>
+        <analysis_id>16580559</analysis_id>
+        <tags>
+          <tag>code_analysis</tag>
+          <tag>svn</tag>
+          <tag>cvs</tag>
+          <tag>ohloh</tag>
+          <tag>scm</tag>
+          <tag>git</tag>
+          <tag>subversion</tag>
+          <tag>mercurial</tag>
+          <tag>source_code</tag>
+          <tag>version_control</tag>
+        </tags>
+        <licenses>
+          <license>
+            <name>gpl</name>
+            <nice_name>GNU General Public License v2.0 or later</nice_name>
+          </license>
+        </licenses>
+      </project>
+    </position>
+    <position>
+      <title></title>
+      <organization>Black Duck Software, Inc.</organization>
+      <html_url>http://www.ohloh.net/p/ohcount/contributors/46974057429751</html_url>
+      <created_at>2013-03-06T21:06:11Z</created_at>
+      <started_at>2013-05-21T17:55:57Z</started_at>
+      <ended_at>2013-05-21T17:55:57Z</ended_at>
+      <sparkline_url>http://www.ohloh.net/accounts/113399/positions/115008/commits_compound_spark.png</sparkline_url>
+      <commits>10</commits>
+      <project>
+        <id>10937</id>
+        <name>Ohcount</name>
+        <url>http://www.ohloh.net/p/ohcount.xml</url>
+        <html_url>http://www.ohloh.net/p/ohcount</html_url>
+        <created_at>2008-01-15T02:48:57Z</created_at>
+        <updated_at>2013-10-17T05:01:11Z</updated_at>
+        <description>Ohcount is a source code line counter.
+
+Ohcount identifies source code files in most common programming languages, and prepares total counts of code and comments. It can operate on single files or entire directory trees. Ohcount can produce line-by-line analysis of files for detailed debugging.
+
+Ohcount is used to create the source code reports on the Ohloh website.</description>
+        <homepage_url>https://github.com/blackducksw/ohcount</homepage_url>
+        <download_url>https://github.com/blackducksw/ohcount/zipball/master</download_url>
+        <url_name>ohcount</url_name>
+        <medium_logo_url>http://cloud.ohloh.net/attachments/6473/ohcount_2_med.png</medium_logo_url>
+        <small_logo_url>http://cloud.ohloh.net/attachments/6473/ohcount_2_small.png</small_logo_url>
+        <user_count>98</user_count>
+        <average_rating>4.4</average_rating>
+        <rating_count>15</rating_count>
+        <review_count>2</review_count>
+        <analysis_id>16196586</analysis_id>
+        <tags>
+          <tag>sloc</tag>
+          <tag>linux</tag>
+          <tag>code_analysis</tag>
+          <tag>ohloh</tag>
+          <tag>code</tag>
+          <tag>statistics</tag>
+          <tag>source_code</tag>
+        </tags>
+        <licenses>
+          <license>
+            <name>gpl</name>
+            <nice_name>GNU General Public License v2.0 or later</nice_name>
+          </license>
+        </licenses>
+      </project>
+    </position>
+  </result>
+</response>

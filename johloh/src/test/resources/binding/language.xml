@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<response>
+  <status>success</status>
+  <result>
+    <language>
+      <id>5</id>
+      <name>java</name>
+      <nice_name>Java</nice_name>
+      <category>code</category>
+      <code>1541807599</code>
+      <comments>721759991</comments>
+      <blanks>347987103</blanks>
+      <comment_ratio>0.318859482786639</comment_ratio>
+      <projects>71634</projects>
+      <contributors>140894</contributors>
+      <commits>13155783</commits>
+    </language>
+  </result>
+</response>
