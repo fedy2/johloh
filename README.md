@@ -3,7 +3,13 @@ johloh
 
 A Java API for Ohloh.
 
-Will be soon available in maven central.
+Dependency declaration:
+
+    <dependency>
+      <groupId>com.github.fedy2.johloh</groupId>
+      <artifactId>johloh</artifactId>
+      <version>1.0.0</version>
+    </dependency>
 
 ##Usage
 
