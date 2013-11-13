@@ -7,7 +7,7 @@
 		<version>7</version>
 	</parent>
 	
-	<groupId>com.github.fedy2.johloh</groupId>
+	<groupId>com.github.fedy2</groupId>
 	<artifactId>johloh</artifactId>
 	<version>1.0.1-SNAPSHOT</version>
 	
