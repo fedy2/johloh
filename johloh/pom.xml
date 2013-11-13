@@ -1,11 +1,51 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-
+		
+	<parent>
+		<groupId>org.sonatype.oss</groupId>
+		<artifactId>oss-parent</artifactId>
+		<version>7</version>
+	</parent>
+	
 	<groupId>com.github.fedy2.johloh</groupId>
 	<artifactId>johloh</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>1.0.0-SNAPSHOT</version>
+	
+	<name>Ohloh Java API</name>
+	<description>A Java library for the Ohloh service</description>
+	<url>https://github.com/fedy2/johloh</url>
+	
+	<licenses>
+		<license>
+			<name>The Apache Software License, Version 2.0</name>
+			<url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+			<distribution>repo</distribution>
+		</license>
+	</licenses>
 
+	<scm>
+		<connection>scm:git:https://github.com/fedy2/johloh.git</connection>
+		<developerConnection>scm:git:https://github.com/fedy2/johloh.git</developerConnection>
+		<url>https://github.com/fedy2/johloh</url>
+	</scm>
+
+	<developers>
+		<developer>
+			<id>defaveri</id>
+			<name>Federico De Faveri</name>
+			<email>defaveri@gmail.com</email>
+			<url>federico.defaveri.org</url>
+			<roles>
+				<role>developer</role>
+			</roles>
+		</developer>
+	</developers>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+	
 	<dependencies>
 		<dependency>
 			<groupId>junit</groupId>
@@ -29,6 +69,7 @@
 			<groupId>xmlunit</groupId>
 			<artifactId>xmlunit</artifactId>
 			<version>1.5</version>
+			<scope>test</scope>
 		</dependency>
 	</dependencies>
 
