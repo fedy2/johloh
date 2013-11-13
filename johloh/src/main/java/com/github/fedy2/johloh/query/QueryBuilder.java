@@ -15,7 +15,7 @@ import java.util.List;
  * @param <THIS> this.
  */
 @SuppressWarnings("unchecked")
-public class QueryBuilder<T, S extends Enum<S> & Sort<T>, THIS extends QueryBuilder<T, S, THIS>> {
+public class QueryBuilder<T, S extends Sort<T>, THIS extends QueryBuilder<T, S, THIS>> {
 	
 	protected String query;
 	protected List<S> sortOptions = new ArrayList<S>();
