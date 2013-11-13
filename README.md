@@ -6,9 +6,9 @@ A Java API for Ohloh.
 Dependency declaration:
 
     <dependency>
-      <groupId>com.github.fedy2.johloh</groupId>
+      <groupId>com.github.fedy2</groupId>
       <artifactId>johloh</artifactId>
-      <version>1.0.0</version>
+      <version>1.0.1</version>
     </dependency>
 
 ##Usage
@@ -34,3 +34,8 @@ Retrieve all the projects sorted by name:
     Query<Project> query = QueryBuilders.projectQuery().sort(ProjectSort.NAME).build();
     Iterator<Project> projectIterator = client.getProjects(query);
     while(projectIterator.hasNext()) System.out.println(projectIterator.next().getName());
+    
+Changelog:
+
+    * 1.0.1 fixed the groupId
+    * 1.0.0 first release
