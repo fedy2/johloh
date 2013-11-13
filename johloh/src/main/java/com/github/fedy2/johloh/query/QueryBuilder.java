@@ -18,7 +18,7 @@ import java.util.List;
 public class QueryBuilder<T, S extends Enum<S> & Sort<T>, THIS extends QueryBuilder<T, S, THIS>> {
 	
 	protected String query;
-	protected List<S> sortOptions = new ArrayList<>();
+	protected List<S> sortOptions = new ArrayList<S>();
 	
 	/**
 	 * Specify the query parameter.

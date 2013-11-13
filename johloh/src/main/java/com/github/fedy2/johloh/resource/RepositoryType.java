@@ -50,7 +50,7 @@ public enum RepositoryType {
 
     static
     {
-    	index = new HashMap<>();
+    	index = new HashMap<String, RepositoryType>();
         for (RepositoryType type : RepositoryType.values()) index.put(type.getTypeName(), type);
     }
 	

@@ -61,7 +61,7 @@ public class RequestUrlBuilderTest {
 		String parameter1Value = "myTestQuery";
 		String parameter2Name = "page";
 		String parameter2Value = "1";
-		Map<String, String> parameters = new HashMap<>();
+		Map<String, String> parameters = new HashMap<String, String>();
 		parameters.put(parameter1Name, parameter1Value);
 		parameters.put(parameter2Name, parameter2Value);
 		
@@ -86,7 +86,7 @@ public class RequestUrlBuilderTest {
 		String parameter1Value = "myTestQuery";
 		String parameter2Name = "page";
 		String parameter2Value = "1";
-		Map<String, String> parameters = new HashMap<>();
+		Map<String, String> parameters = new HashMap<String, String>();
 		parameters.put(parameter1Name, parameter1Value);
 		parameters.put(parameter2Name, parameter2Value);
 		
@@ -122,7 +122,7 @@ public class RequestUrlBuilderTest {
 		String parameter1Value = "my TestQuery";
 		String parameter2Name = "page";
 		String parameter2Value = "1";
-		Map<String, String> parameters = new HashMap<>();
+		Map<String, String> parameters = new HashMap<String, String>();
 		parameters.put(parameter1Name, parameter1Value);
 		parameters.put(parameter2Name, parameter2Value);
 		

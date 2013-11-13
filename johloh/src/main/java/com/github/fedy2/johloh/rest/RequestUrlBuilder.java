@@ -29,8 +29,8 @@ public class RequestUrlBuilder {
 	protected RequestUrlBuilder(String scheme, String host, Map<String, String> defaultParameters) {
 		this.scheme = scheme;
 		this.host = host;
-		this.pathElements = new ArrayList<>();
-		this.parameters = new HashMap<>(defaultParameters);
+		this.pathElements = new ArrayList<String>();
+		this.parameters = new HashMap<String, String>(defaultParameters);
 	}
 
 	/**

@@ -414,7 +414,7 @@ public class OhlohClient {
 	 * @return the elements iterator.
 	 */
 	protected <T> Iterator<T> buildIterator(RequestUrlBuilder builder) {
-		PageIterator<T> pageIterator = new PageIterator<>(builder, restClient);
-		return new ItemIterator<>(pageIterator);
+		PageIterator<T> pageIterator = new PageIterator<T>(builder, restClient);
+		return new ItemIterator<T>(pageIterator);
 	}
 }

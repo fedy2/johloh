@@ -111,7 +111,7 @@ public enum FactoidType {
 
     static
     {
-    	index = new HashMap<>();
+    	index = new HashMap<String, FactoidType>();
         for (FactoidType type : FactoidType.values()) index.put(type.getTypeName(), type);
     }
 	

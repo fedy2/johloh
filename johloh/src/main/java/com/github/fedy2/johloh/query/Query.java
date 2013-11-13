@@ -65,7 +65,7 @@ public class Query<T> {
 	 */
 	public Map<String, String> toParameters()
 	{
-		Map<String, String> parameters = new HashMap<>();
+		Map<String, String> parameters = new HashMap<String, String>();
 	
 		if (query!=null) parameters.put("query", query);
 		

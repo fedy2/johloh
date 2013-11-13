@@ -25,7 +25,7 @@ public class RestClient {
 	protected HttpClient httpClient;
 	protected Binder binder;
 	
-	protected Map<String, String> defaultParameters = new HashMap<>();
+	protected Map<String, String> defaultParameters = new HashMap<String, String>();
 	
 	/**
 	 * Creates a new {@link RestClient} with the specified service URL scheme and host.
